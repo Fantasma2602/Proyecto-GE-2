@@ -39,7 +39,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Glow_Size: 0.2
-    - _Highlight_Intensity: 1
+    - _Highlight_Intensity: 1.27
     - _Highlight_Size: 0.8
     - _Outline_Size: 0.5
     - _QueueControl: 0
