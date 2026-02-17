@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class Enemigo : MonoBehaviour
 {
@@ -25,6 +26,16 @@ public class Enemigo : MonoBehaviour
             agent.SetDestination(player.position);
         }
         
+    }
+
+    //Muerte de jugador y reinicio de mundo
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("player"))
+        {
+            Destroy(collision.gameObject);
+            SceneManager.LoadScene("Coloso");
+        }
     }
 
     private void OnDrawGizmosSelected()

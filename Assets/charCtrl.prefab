@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1896751028377992121}
   m_Layer: 6
   m_Name: charCtrl
-  m_TagString: Untagged
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 2212290375196945095}
   m_Layer: 6
   m_Name: oreja1
-  m_TagString: Untagged
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -390,7 +390,7 @@ GameObject:
   - component: {fileID: 3181102601778590660}
   m_Layer: 6
   m_Name: Personaje
-  m_TagString: Untagged
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -510,7 +510,7 @@ GameObject:
   - component: {fileID: 6763946692898061113}
   m_Layer: 6
   m_Name: masc
-  m_TagString: Untagged
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 7087215601685981096}
   m_Layer: 6
   m_Name: oreja2
-  m_TagString: Untagged
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -736,7 +736,7 @@ GameObject:
   - component: {fileID: 3205262108059494437}
   m_Layer: 6
   m_Name: ojo2
-  m_TagString: Untagged
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -848,7 +848,7 @@ GameObject:
   - component: {fileID: 4566361478232089745}
   m_Layer: 6
   m_Name: ojo1
-  m_TagString: Untagged
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -957,10 +957,10 @@ GameObject:
   - component: {fileID: 6412052805390055581}
   - component: {fileID: 7762373337018172560}
   - component: {fileID: 8010683385166885296}
-  - component: {fileID: 868257249177658443}
+  - component: {fileID: 5853881494607355725}
   m_Layer: 6
   m_Name: cabello
-  m_TagString: Untagged
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1037,8 +1037,8 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &868257249177658443
-BoxCollider:
+--- !u!135 &5853881494607355725
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1056,8 +1056,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.29404545, y: 0.71719885, z: 0.35208404}
-  m_Center: {x: 0.1, y: 0.1, z: 0.1}
+  m_Radius: 0.26618838
+  m_Center: {x: -0.008940834, y: 0.032131437, z: -0.004175712}
 --- !u!1 &8240685461823615830
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,7 +1073,7 @@ GameObject:
   - component: {fileID: 656975742694472899}
   m_Layer: 0
   m_Name: Pistola
-  m_TagString: Untagged
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
