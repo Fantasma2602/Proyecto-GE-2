@@ -6,6 +6,7 @@ public class Enemigo : MonoBehaviour
 {
     private NavMeshAgent agent;
     private Transform player;
+    
     //detrect
     private bool detected;
     [SerializeField] private float radio;
@@ -34,7 +35,7 @@ public class Enemigo : MonoBehaviour
         if(collision.gameObject.CompareTag("player"))
         {
             Destroy(collision.gameObject);
-            SceneManager.LoadScene("Coloso");
+            SceneManager.LoadScene("Examen");
         }
     }
 
