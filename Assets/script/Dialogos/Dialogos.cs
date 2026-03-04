@@ -79,7 +79,7 @@ public class Dialogos : MonoBehaviour
         {
             texto.text += palabras[linea].dialogo[i];
             AudioManager.instance.Play("Hablar");
-            yield return new WaitForSecondsRealtime(.1f);
+            yield return new WaitForSecondsRealtime(.05f);
         }
        
     }

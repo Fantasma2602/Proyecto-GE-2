@@ -23,6 +23,7 @@ public class Enemigo : MonoBehaviour
 
         if (detected)
         {
+            
             player = GameObject.FindGameObjectWithTag("player").transform;
             agent.SetDestination(player.position);
         }
@@ -34,6 +35,7 @@ public class Enemigo : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("player"))
         {
+            AudioManager.instance.Play("muerte");
             Destroy(collision.gameObject);
             GameManager.instance.ReiniciarDatos();
             SceneManager.LoadScene("Examen");

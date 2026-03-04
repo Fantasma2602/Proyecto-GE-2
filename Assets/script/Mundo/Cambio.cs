@@ -40,6 +40,7 @@ public class Cambio : MonoBehaviour
            
             if (GameManager.instance.moneda >= colNecesarios)
             {
+                AudioManager.instance.Play("fin");
                 SceneManager.LoadScene(escena);
                 return;
             }

@@ -11,6 +11,7 @@ public class Collect : MonoBehaviour
 
         if(collision.CompareTag("player"))
         {
+            AudioManager.instance.Play("recolectar");
             GameManager.instance.moneda++;
             Destroy(gameObject);
         }
