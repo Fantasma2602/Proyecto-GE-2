@@ -35,7 +35,9 @@ public class Enemigo : MonoBehaviour
         if(collision.gameObject.CompareTag("player"))
         {
             Destroy(collision.gameObject);
+            GameManager.instance.ReiniciarDatos();
             SceneManager.LoadScene("Examen");
+            
         }
     }
 

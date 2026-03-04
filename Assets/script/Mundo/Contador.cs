@@ -11,7 +11,7 @@ public class Contador : MonoBehaviour
     }
     private void Update()
     {
-        texto.text = "Zanahoria " + GameManager.instance.moneda;
+        texto.text = "X " + GameManager.instance.moneda;
     }
 
 }

@@ -16,5 +16,10 @@ public class GameManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+
+    }
+    public void ReiniciarDatos()
+    {
+        moneda = 0;
     }
 }
