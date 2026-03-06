@@ -841,15 +841,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72859337}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.78787, y: 0.78787, z: 0.78787}
+  m_LocalPosition: {x: 0, y: 0, z: -5.54}
+  m_LocalScale: {x: 1.879054, y: 1.879054, z: 1.879054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 374641744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -372.79785, y: 192.44983}
+  m_AnchoredPosition: {x: -895.96, y: 457.45}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &72859339
@@ -6739,7 +6739,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -14705,15 +14705,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 782138608}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -5.54}
+  m_LocalScale: {x: 2.3849797, y: 2.3849797, z: 2.3849797}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 374641744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -254.77911, y: 185.48865}
+  m_AnchoredPosition: {x: -614.49, y: 440.84}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &782138610
@@ -16003,7 +16003,7 @@ Transform:
   m_GameObject: {fileID: 861383481}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.02055, y: 2.27, z: -25.54}
+  m_LocalPosition: {x: 52.088, y: 2.27, z: -25.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25783,13 +25783,13 @@ MonoBehaviour:
     pers2: {fileID: 21300000, guid: 48dc32697e37d0743afe7d2f2d14d536, type: 3}
     caja: {fileID: 21300000, guid: 469f66e22c61f15448b21188a47184eb, type: 3}
   - nombre: El Condor
-    dialogo: Otra vez..... No te habian dicho que dejaras de hacer experminetos raros?
+    dialogo: Otra vez..... No te habian dicho que dejaras de hacer experimentos raros?
     pers1: {fileID: 21300000, guid: 48dc32697e37d0743afe7d2f2d14d536, type: 3}
     pers2: {fileID: 21300000, guid: ad7b59486df679e49a99cd9795fb8af3, type: 3}
     caja: {fileID: 21300000, guid: 469f66e22c61f15448b21188a47184eb, type: 3}
   - nombre: Agnes
     dialogo: "Eso no es lo importante ahora, algunas de tus compa\xF1eras han perdido
-      la razon y te intentaran atacar. Ahora continua con tu aventura joven El"
+      la razon e intentaran atacarte, asi que ten cuidado joven El"
     pers1: {fileID: 21300000, guid: ad7b59486df679e49a99cd9795fb8af3, type: 3}
     pers2: {fileID: 21300000, guid: 48dc32697e37d0743afe7d2f2d14d536, type: 3}
     caja: {fileID: 21300000, guid: 469f66e22c61f15448b21188a47184eb, type: 3}
@@ -54582,8 +54582,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728585335}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.6618}
-  m_LocalScale: {x: 1.4155, y: 1.4155, z: 1.4155}
+  m_LocalPosition: {x: 0, y: 0, z: -9.5033}
+  m_LocalScale: {x: 3.375939, y: 3.375939, z: 3.375939}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 911851700}
@@ -54595,7 +54595,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.28026, y: -3}
+  m_AnchoredPosition: {x: -18.58487, y: -17.952908}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1729047731
@@ -55533,8 +55533,8 @@ Transform:
   m_GameObject: {fileID: 1745692849}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -282.5, y: -159, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -693, y: -390, z: -5.54}
+  m_LocalScale: {x: 2.3849797, y: 2.3849797, z: 2.3849797}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 374641744}
@@ -61643,8 +61643,7 @@ MonoBehaviour:
     pers2: {fileID: 21300000, guid: 48dc32697e37d0743afe7d2f2d14d536, type: 3}
     caja: {fileID: 21300000, guid: 469f66e22c61f15448b21188a47184eb, type: 3}
   - nombre: El condor
-    dialogo: ...Okay... Te dejare con lo tuyo y continuare buscando la manera de
-      escapar.
+    dialogo: Okay... Te dejare con lo tuyo y continuare buscando la manera de escapar.
     pers1: {fileID: 21300000, guid: 48dc32697e37d0743afe7d2f2d14d536, type: 3}
     pers2: {fileID: 21300000, guid: 930b91241a1fd5c4b856206cf2f53a98, type: 3}
     caja: {fileID: 21300000, guid: 469f66e22c61f15448b21188a47184eb, type: 3}
@@ -64650,15 +64649,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972409543}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.071905, y: 0.071905, z: 0.071905}
+  m_LocalPosition: {x: 0, y: 0, z: -5.54}
+  m_LocalScale: {x: 0.17149197, y: 0.17149197, z: 0.17149197}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 374641744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -19.25327, y: -10.798109}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1972409545
@@ -66050,7 +66049,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: c140e4a0c80c4784f985dadafcd984d8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -69716,7 +69715,7 @@ Transform:
   m_GameObject: {fileID: 223994507068060874}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.550247, y: 1.185, z: -47.247295}
+  m_LocalPosition: {x: 30.2, y: 1.185, z: -19.49}
   m_LocalScale: {x: 1.1414, y: 1.1414, z: 1.1414}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -69985,8 +69984,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03e23d190660daa4f9442ddcf41b27b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerLook
-  mouseSenseX: 2000
-  mouseSenseY: 400
+  mouseSenseX: 4000
+  mouseSenseY: 800
 --- !u!23 &1886828097196695410
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -70975,6 +70974,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3410452167862331453, guid: 26f90f5d44e5a8d459de60be457665a5, type: 3}
+      propertyPath: sonidos.Array.data[5].volume
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 4657651245557028078, guid: 26f90f5d44e5a8d459de60be457665a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.7550497
@@ -71880,7 +71883,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 177efb358c0850a45b2fb6eb6414008d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.15
   m_Pitch: 1
   Loop: 0
   Mute: 0

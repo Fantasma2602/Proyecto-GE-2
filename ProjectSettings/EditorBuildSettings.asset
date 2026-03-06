@@ -5,15 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/Examen parcial/Examen.unity
-    guid: 9c44f469c55ce0b44bc3a3aad7894db0
-  - enabled: 1
     path: Assets/Scenes/Examen parcial/Menu.unity
     guid: 2932338d25d63a646aaaa62fd894653f
+  - enabled: 1
+    path: Assets/Scenes/Examen parcial/Examen.unity
+    guid: 9c44f469c55ce0b44bc3a3aad7894db0
   - enabled: 1
     path: Assets/Scenes/Examen parcial/Fin.unity
     guid: 5c62a902e48cc8d4b8c27dbc3d657c1f
